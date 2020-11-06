@@ -1,0 +1,113 @@
+
+
+/* Navigation section */
+
+    
+#navbar::before{
+    height: 103%;
+}
+
+#navbar{
+    flex-direction: column;
+    
+}
+#navbar ul li a {
+
+    padding: 2px 23px;
+}
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.0rem;
+}
+
+/* Home Section  */
+#home marquee{
+    font-size: 2rem;
+    
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 93px 0px;
+    margin: -38px 4px;
+    height: 409px;
+    align-items: center;
+    justify-content: center;
+}
+ .h-primary {
+    font-size: 2rem;
+    padding: 13px;
+    margin: 21px 32px;
+    
+}
+#home p {
+    color: #9C27B0;
+    text-align: center;
+    font-size: .89rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary-center {
+    font-size: 2rem;
+}
+    
+
+
+#home::before{
+    height: 91%;
+    
+   }
+    
+
+
+/* Notice section  */
+#notice{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.notice-container{
+    align-items: center;
+    background-color: #ece9e4;
+    display: initial;
+    
+}
+
+/* Admins section */
+.admins{
+    /* overflow: hidden; */
+    flex-direction: column;
+    
+
+}
+.admin-section::before {
+    height: 100%;
+}
+ .a01{
+     display: flex;
+ }
+ 
+
+
+
+/* Contact setion */
+#contact{
+    height: 488px;
+}
+
+#contact::before {
+    height: 53%;
+    
+}
+
+
+/* Footer  */  
+footer{
+    height:100px;
+    position: relative;
+    bottom: -135px;
+}
+
+
+
+/* utility classes */

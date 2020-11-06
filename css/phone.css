@@ -1,0 +1,112 @@
+
+
+
+/* Navigation section */
+body{
+    background-color:#a3a5b700;
+}
+
+#navbar{
+    flex-direction: column;
+    
+}
+#navbar::before{
+    background: #000000a8;
+    
+}
+#navbar ul li a {
+
+    padding: 1px 8px;
+}
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.0rem;
+}
+
+/* Home Section  */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 93px 0px;
+    margin: -38px 4px;
+    height: 409px;
+    align-items: center;
+    justify-content: center;
+}
+#home marquee{
+    font-size: 1.5rem;
+    
+}
+ .h-primary {
+    font-size: 2rem;
+    padding: 13px;
+    margin: 21px 32px;
+    
+}
+#home p {
+    color: #9C27B0;
+    text-align: center;
+    font-size: .89rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary-center {
+    font-size: 2rem;
+}
+    
+
+
+#home::before{
+    height: 91%;
+    
+   }
+    
+
+
+/* Notice section  */
+#notice{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.notice-container{
+    align-items: center;
+    background-color: #ece9e4;
+    display: initial;
+    
+}
+
+/* Admins section */
+.admins{
+    /* overflow: hidden; */
+    flex-direction: column;
+    
+
+}
+.admin-section::before {
+    height: 255%;
+}
+
+.a01{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact setion */
+
+#contact::before {
+    height: 100%;
+    
+}
+
+
+/* Footer  */  
+footer{
+    height:100px;
+    position: relative;
+    bottom: -135px;
+}
+
+
+
+/* utility classes */
